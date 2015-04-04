@@ -23,22 +23,17 @@
             android:background="#303F9F" />
 
         <LinearLayout
-            android:orientation="vertical"
             android:id="@+id/drawer"
             android:layout_width="240dp"
             android:layout_height="match_parent"
             android:layout_gravity="start"
-            android:background="#3F51B5">
+            android:background="#3F51B5"
+            android:orientation="vertical">
 
-            <Button
+            <ExpandableListView
+                android:id="@+id/listView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="setting" />
-
-            <com.androidhuman.example.materialdrawer.main_activity_menu.SettingLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
+                android:layout_height="wrap_content" />
         </LinearLayout>
     </android.support.v4.widget.DrawerLayout>
 </LinearLayout>
