@@ -1,4 +1,4 @@
-package com.androidhuman.example.materialdrawer;
+package com.starnamu.cardmemorize;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
